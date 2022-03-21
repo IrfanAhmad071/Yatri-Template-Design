@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: calibri;
+  
+}
+.container{
+    width: 100%;
+}
+.bg-image{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+header{
+    background-color:rgb(29, 29, 29);
+    opacity: .8;
+}
+.navbar{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.menubar{
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    font-size: 22px;
+}
+.menu ul li{
+    display: flex;
+    margin-right: 30px;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: rgb(167, 161, 161);
+}
+.social ul{
+    display: flex;
+    font-size: 22px;
+}
+.social ul li{
+    display: flex;
+    margin-right: 30px;
+}
+.social ul li a{
+    color: white;
+    text-decoration: none;
+}
+.social ul li a:hover{
+    color: rgb(70, 93, 221);
+}
+.content{
+    width: 50%;
+    text-align: center;
+    color: white;
+    margin: 100px auto;
+}
+.content h1{
+    font-size: 70px;
+    margin: auto;
+    font-family: 'Dancing Script';
+}
+.table_text{
+    font-size: 35px;
+    margin: auto;
+    color: rgb(250, 246, 4);
+}
+.content p{
+    font-size: large;
+    color: rgb(249, 249, 250);
+}
+.btn{
+    padding: 12px;
+}
+.btn-reserve{
+    background-color: rgb(250, 246, 4);
+    border: 2px solid rgb(250, 246, 4);
+    color: rgb(241, 79, 4);
+    margin-right: 5px;
+    font-weight: bold;
+}
+.btn-explore{
+    background-color: transparent;
+    border:2px solid rgb(250, 246, 4);
+    color: rgb(250, 246, 4);
+    font-weight: bold;
+}
+.btn-reserve:hover{
+    background-color: rgb(207, 204, 204);
+    border: 2px solid rgb(207, 204, 204);
+    color: black;
+}
+.btn-explore:hover{
+    background-color: rgb(207, 204, 204);
+    border: 2px solid rgb(207, 204, 204);
+    color: black;
+}
+.row{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+}
+.column{
+    width: 33.33%;
+    margin: 10px;
+}
+.column img{
+    width: 100%;
+}
+.front-img{
+    background-image: url(food1.jpg);
+}
+.happy_hours{
+    padding: 45px;
+}
+.happy_hours h1{
+    text-align: center;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+}
+.happy_hours p{
+    font-size: large;
+    text-align: center;
+    color: rgb(244, 248, 8);
+    margin: 0px;
+}
+.bg-img{
+    background-image: url(food2.jpg);
+}
+.bg-color{
+    background-color: #fad9ec;
+    padding: 50px 50px;
+}
+.first{
+    align-items: center;
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.second{
+    width: 50%;
+    margin-inline: 10px;
+}
+.dish_list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.dish_list li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 10px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.dish_list li::after{
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: rgb(192, 106, 8);
+    position: absolute;
+    bottom: -10px
+}
+.dish_img{
+    width: 100%;
+}
+.dish_container{
+    width: 90%;
+    margin: 50px auto;
+    margin-bottom: 50px;
+}
+.plate{
+    display: flex;
+    justify-content: space-between;
+}
+.plates{
+    display: flex;
+}
+.reserve_table{
+    background-image: url(come-up.jpg);
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.res_table{
+    width: 60%;
+    margin: auto;
+    color: rgb(255, 251, 0);
+}
+.testimonials h1{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+.clients{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+.client1{
+    width: 33.33%;
+    margin: 50px;
+}
+.client1 img{
+    border-radius: 50%;
+}
+.icons{
+    width: 90%;
+    justify-content: space-between;
+    margin: auto; 
+    display: flex;
+}
+.fa-bus, .fa-music, .fa-fire, .fa-wifi{
+    margin-right: 20px;
+    color: rgb(233, 126, 33);
+}
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 768px)and (max-width: 1023px) {
+}
+@media only screen and (min-width: 960px)and (max-width: 1023px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .container{
+        width: 100%;
+    }
+}
